@@ -58,7 +58,7 @@ stations[1] = "Berwick-upon-Tweed";
  * How did Leeds get on there? Better remove it.
  */
  stations.splice(4, 1);
- console.log(stations);
+//  console.log(stations);
 
 
 
@@ -66,8 +66,8 @@ stations[1] = "Berwick-upon-Tweed";
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
-
-// console.log(stations);
+stations.splice(3, 0, "Darlington");
+ console.log(stations);
 
 
 /**
