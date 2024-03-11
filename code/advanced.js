@@ -31,10 +31,10 @@ unitedKingdom = [
 /**
  * Q1. Add some tourist attractions to England
  */
+england = unitedKingdom[1];
+england.touristAttractions = ["Tower Bridge", "Buckingham Palace"]
 
-england = null;
-
-// console.log(england);
+ console.log(england);
 
 /**
  * Q2. Change the capital of Wales to "Cardiff"
