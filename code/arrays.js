@@ -67,7 +67,7 @@ stations[1] = "Berwick-upon-Tweed";
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
 stations.splice(3, 0, "Darlington");
- console.log(stations);
+//  console.log(stations);
 
 
 /**
@@ -75,9 +75,8 @@ stations.splice(3, 0, "Darlington");
  * Is Durham one of the stops?
  */
 
-stoppingAtDurham = null;
-
-// console.log(stoppingAtDurham);
+stoppingAtDurham = stations.includes("Durham");
+//  console.log(stoppingAtDurham);
 
 
 /**
