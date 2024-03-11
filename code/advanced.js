@@ -43,15 +43,14 @@ england.touristAttractions = ["Tower Bridge", "Buckingham Palace"]
 wales = unitedKingdom[2];
 wales.capital = "Cardiff";
 
-console.log(wales);
+// console.log(wales);
 
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
 
-northernIrelandKeys = null;
-
-// console.log(northernIrelandKeys);
+northernIrelandKeys = Object.keys(unitedKingdom[3]);
+//  console.log(northernIrelandKeys);
 
 /**
  * Q4. Use an if statement to compare the population of Scotland to the population of Wales, and say which is bigger.
