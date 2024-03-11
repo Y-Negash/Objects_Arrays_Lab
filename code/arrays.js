@@ -18,7 +18,7 @@ stations.push("London King's Cross")
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 stations.shift();
-  console.log(stations);
+//   console.log(stations);
 
 
 
@@ -40,7 +40,7 @@ stationCount = stations.length;
 
 thirdStation = stations[2];
 
-console.log("The third station is " + thirdStation);
+// console.log("The third station is " + thirdStation);
 
 
 
@@ -48,8 +48,8 @@ console.log("The third station is " + thirdStation);
  * Q5.
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
-
-// console.log(stations);
+stations[1] = "Berwick-upon-Tweed";
+ console.log(stations);
 
 
 
