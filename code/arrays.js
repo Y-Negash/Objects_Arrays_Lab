@@ -49,7 +49,7 @@ thirdStation = stations[2];
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
 stations[1] = "Berwick-upon-Tweed";
- console.log(stations);
+//  console.log(stations);
 
 
 
@@ -57,8 +57,8 @@ stations[1] = "Berwick-upon-Tweed";
  * Q6.
  * How did Leeds get on there? Better remove it.
  */
-
-// console.log(stations);
+ stations.splice(4, 1);
+ console.log(stations);
 
 
 
@@ -68,7 +68,6 @@ stations[1] = "Berwick-upon-Tweed";
  */
 
 // console.log(stations);
-
 
 
 /**
