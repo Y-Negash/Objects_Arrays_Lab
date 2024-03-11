@@ -29,7 +29,7 @@ tortoise = {
 
 dogName = dog.name;
 
- console.log("The dog's name is " + dogName);
+//  console.log("The dog's name is " + dogName);
 
 /**
  * Q2. What breed is the cat?
@@ -37,13 +37,13 @@ dogName = dog.name;
 
 catBreed = cat.breed;
 
- console.log("The cat is a " + catBreed);
+  console.log("The cat is a " + catBreed);
 
 /**
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
-
-// console.log(tortoise)
+ tortoise.age = tortoise.age + 1;
+  console.log(tortoise)
 
 /**
  * Q4. How many different colours is Poppy?
