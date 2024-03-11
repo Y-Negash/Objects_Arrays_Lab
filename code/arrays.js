@@ -8,8 +8,8 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
  * Q1.
  * The East Coast Main Line doesn't stop at Peterborough! Add London Kings Cross to the end of the array to complete the line.
  */
-
-// console.log(stations);
+stations.push("London King's Cross")
+ console.log(stations);
 
 
 
