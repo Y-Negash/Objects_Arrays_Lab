@@ -18,7 +18,7 @@ stations.push("London King's Cross")
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 stations.shift();
-//  console.log(stations);
+  console.log(stations);
 
 
 
@@ -38,9 +38,9 @@ stationCount = stations.length;
  * Which station is the third stop?
  */
 
-thirdStation = null;
+thirdStation = stations[2];
 
-// console.log("The third station is " + thirdStation);
+console.log("The third station is " + thirdStation);
 
 
 
