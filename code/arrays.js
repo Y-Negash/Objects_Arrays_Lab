@@ -74,7 +74,7 @@ stations.splice(3, 0, "Darlington");
  * Q8.
  * Is Durham one of the stops?
  */
-
+stations.push("Durham");
 stoppingAtDurham = stations.includes("Durham");
 //  console.log(stoppingAtDurham);
 
@@ -83,3 +83,10 @@ stoppingAtDurham = stations.includes("Durham");
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
+console.log(stations);
+
+if (stoppingAtDurham){
+    console.log("Yay Durham!")
+} else {
+    console.log("Aww...")
+}
