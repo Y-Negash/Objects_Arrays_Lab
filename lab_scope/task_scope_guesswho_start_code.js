@@ -79,18 +79,18 @@
 
 // // GUESS 4 ///////////////////
 
-let firstName = "Gail";
+// let firstName = "Gail";
 
-if (firstName === "Gail") {
-  let firstName = "Ashley";
-}
+// if (firstName === "Gail") {
+//   let firstName = "Ashley";
+// }
 
-const guessWho = function () {
-  return `Guess Who is ${firstName}`;
-};
+// const guessWho = function () {
+//   return `Guess Who is ${firstName}`;
+// };
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
 
 /* Prediction: 
  It will be: Guess Who is Ashley
@@ -102,23 +102,30 @@ because firstname uses let so can change later. if statement is true so firstnam
 
 // // GUESS 5 ///////////////////
 
-// const guess = {
-//   hair_colour: "blonde",
-//   eye_colour: "brown",
-//   hat: false,
-//   glasses: false,
-//   firstName: "Jennifer",
-// };
+const guess = {
+  hair_colour: "blonde",
+  eye_colour: "brown",
+  hat: false,
+  glasses: false,
+  firstName: "Jennifer",
+};
 
-// const changeGuess = function () {
-//   guess = {
-//     hair_colour: "blonde",
-//     eye_colour: "blue",
-//     hat: false,
-//     glasses: false,
-//     firstName: "Kyle",
-//   };
-// };
+const changeGuess = function () {
+  guess = {
+    hair_colour: "blonde",
+    eye_colour: "blue",
+    hat: false,
+    glasses: false,
+    firstName: "Kyle",
+  };
+};
 
-// changeGuess();
-// console.log(`Guess Who is ${guess.firstName}`);
+changeGuess();
+console.log(`Guess Who is ${guess.firstName}`);
+
+/* Prediction: 
+ It will be: Guess Who is Jennifer because the guess object uses const so cannot be changed later
+
+ Actual: TypeError: Assignment to constant variable.
+ because changeGuess function tries to change guess but can't because it uses const.
+*/
