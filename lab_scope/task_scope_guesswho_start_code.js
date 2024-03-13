@@ -73,7 +73,7 @@ console.log(finalAnswer);
  because the changeHat function changes hat from false to true and is used in line 63,
  so in the if statement the condition is true and so the name changes to Chris. 
 
- Actual: 
+ Actual: Guess who is Chris
 */
 // // GUESS 4 ///////////////////
 
