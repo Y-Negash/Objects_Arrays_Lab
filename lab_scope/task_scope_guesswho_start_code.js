@@ -30,8 +30,12 @@ console.log("guess1: ", guess1);
 
 const guess2 = `Guess Who is ${firstName}`;
 console.log("guess2: ", guess2);
-// Prediction: 
-// It will be: Guess Who is Liz
+/* Prediction: 
+ It will be: Guess Who is Liz 
+
+ Actual: Guess who is Liz (then) Guess who is Donna 
+ because Donna is global variable and is in the scope for guess2
+*/
 // // GUESS 3 ///////////////////
 
 // const guess = {
