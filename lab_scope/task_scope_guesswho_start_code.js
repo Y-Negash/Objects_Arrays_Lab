@@ -14,7 +14,7 @@ const guessWho = function () {
 const finalAnswer = guessWho();
 console.log(finalAnswer);
 // // Prediction: 
-
+// It will be: Guess who is Joseph
 // // GUESS 2 ///////////////////
 
 // let firstName = "Donna";
